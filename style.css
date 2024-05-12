@@ -166,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 60vh;
 }
 
 .section__pic-container {
@@ -268,20 +268,27 @@ section {
 }
 
 .about-containers {
+  text-align: center;
+  justify-content: center;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  align-content: center;
 }
 
 .about-details-container {
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  align-content: center;
 }
 
 .about-containers,
 .about-details-container {
+  text-align: center;
+  justify-content: center;
   display: flex;
+  align-content: center;
 }
 
 .about-pic {
@@ -306,7 +313,10 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 40%;
+  justify-content: center;
+  display: flex;
+  align-content: center;
 }
 
 .section__pic-container {
